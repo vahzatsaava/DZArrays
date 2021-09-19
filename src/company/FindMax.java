@@ -17,7 +17,7 @@ public class FindMax {
         System.out.println("Максимальное значение");
         int[] arrays = new int[]{9, 34, 234, 45, 4, 6, 6, 32, 1, 34, 45, 234345, 4};
 
-        maxValue(arrays);//вызов метода
+        maxValue(arrays);//вызов методов
     }
 
 }

@@ -1,6 +1,7 @@
 package company;
 
 public class FindMax {
+    //Найти максимальный и минимальный элементы массива
     private static int[] maxValue(int[] array) {
         int max=0;
         for (int i = 0; i <array.length ; i++) {

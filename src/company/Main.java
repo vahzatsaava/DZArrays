@@ -1,6 +1,13 @@
 package company;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
+    // ЗАДАЧА
+    // Сделать реверс массива.
     private static int[] sortArray(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
             int numb = array[array.length - i - 1];
@@ -15,8 +22,6 @@ public class Main {
             System.out.println(array[i]);
         }
     }
-
-
 
     public static void main(String[] args) {
 
@@ -33,7 +38,7 @@ public class Main {
 
         sortArray(arrayOfNumber);
         printArray(arrayOfNumber);
-        //просто коммент
+
     }
 }
 
